@@ -1,7 +1,7 @@
 import { StyleSheet, View, Text } from 'react-native'
 import React from 'react'
 
-function PrivateScreen() {
+function PrivateScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Private</Text>

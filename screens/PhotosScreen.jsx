@@ -1,7 +1,7 @@
 import { StyleSheet, View, Text } from 'react-native'
 import React from 'react'
 
-function PhotosScreen() {
+function PhotosScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Photos</Text>
